@@ -1,0 +1,2143 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "番茄炒蛋",
+      "name_en": "Tomato and Egg Stir-fry",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "10分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "番茄", "amount": "2个", "category": "蔬菜"},
+        {"name": "鸡蛋", "amount": "3个", "category": "蛋奶"},
+        {"name": "大葱", "amount": "1根", "category": "蔬菜"},
+        {"name": "食用油", "amount": "适量", "category": "调料"},
+        {"name": "盐", "amount": "1茶匙", "category": "调料"},
+        {"name": "白糖", "amount": "1/2茶匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "番茄": ["圣女果", "番茄酱"],
+        "鸡蛋": ["鸭蛋"],
+        "大葱": ["小葱", "洋葱"]
+      },
+      "nutrition": {
+        "calories": 180,
+        "protein": 12,
+        "fat": 11,
+        "carbs": 8,
+        "fiber": 2
+      },
+      "tags": ["素食", "快手菜", "高蛋白"],
+      "steps": [
+        "番茄洗净切块，大葱切段",
+        "鸡蛋打散，加入少许盐",
+        "热锅倒油，倒入蛋液炒至凝固盛出",
+        "锅中再倒少许油，放入番茄炒出汁",
+        "加入炒好的鸡蛋，调入盐和糖，翻炒均匀",
+        "撒入葱段，出锅装盘"
+      ],
+      "tips": ["番茄炒出汁更入味", "加少许糖可以提鲜"]
+    },
+    {
+      "id": 2,
+      "name": "麻婆豆腐",
+      "name_en": "Mapo Tofu",
+      "category": "川菜",
+      "difficulty": "中等",
+      "time": "20分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "嫩豆腐", "amount": "400克", "category": "豆制品"},
+        {"name": "猪肉末", "amount": "100克", "category": "肉类"},
+        {"name": "郫县豆瓣酱", "amount": "1.5汤匙", "category": "调料"},
+        {"name": "花椒粉", "amount": "1茶匙", "category": "调料"},
+        {"name": "蒜末", "amount": "2瓣", "category": "蔬菜"},
+        {"name": "姜末", "amount": "1茶匙", "category": "蔬菜"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "料酒", "amount": "1汤匙", "category": "调料"},
+        {"name": "水淀粉", "amount": "适量", "category": "调料"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "嫩豆腐": ["北豆腐", "内酯豆腐"],
+        "猪肉末": ["牛肉末", "鸡肉末", "素肉末"],
+        "郫县豆瓣酱": ["豆豉酱", "辣椒酱"]
+      },
+      "nutrition": {
+        "calories": 280,
+        "protein": 18,
+        "fat": 20,
+        "carbs": 8,
+        "fiber": 2
+      },
+      "tags": ["辣", "川菜", "下饭"],
+      "steps": [
+        "豆腐切2厘米见方的小块，放入加盐的开水中焯烫2分钟，捞出沥干",
+        "热锅倒油，放入肉末炒至变色",
+        "加入豆瓣酱炒出红油",
+        "放入蒜末、姜末炒香",
+        "加入料酒、生抽和适量清水",
+        "放入豆腐块，中小火烧5分钟",
+        "淋入水淀粉勾芡，撒上花椒粉",
+        "装盘，可撒上葱花点缀"
+      ],
+      "tips": ["豆腐焯水可以去豆腥味", "勾芡要分两次，更均匀"]
+    },
+    {
+      "id": 3,
+      "name": "宫保鸡丁",
+      "name_en": "Kung Pao Chicken",
+      "category": "川菜",
+      "difficulty": "中等",
+      "time": "25分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "鸡胸肉", "amount": "300克", "category": "肉类"},
+        {"name": "花生米", "amount": "50克", "category": "坚果"},
+        {"name": "干辣椒", "amount": "10个", "category": "调料"},
+        {"name": "花椒", "amount": "1茶匙", "category": "调料"},
+        {"name": "大葱", "amount": "1根", "category": "蔬菜"},
+        {"name": "蒜", "amount": "3瓣", "category": "蔬菜"},
+        {"name": "姜", "amount": "1小块", "category": "蔬菜"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "老抽", "amount": "1茶匙", "category": "调料"},
+        {"name": "料酒", "amount": "1汤匙", "category": "调料"},
+        {"name": "白糖", "amount": "1汤匙", "category": "调料"},
+        {"name": "醋", "amount": "1汤匙", "category": "调料"},
+        {"name": "淀粉", "amount": "2汤匙", "category": "调料"},
+        {"name": "食用油", "amount": "适量", "category": "调料"}
+      ],
+      "substitutions": {
+        "鸡胸肉": ["鸡腿肉", "猪肉"],
+        "花生米": ["腰果", "杏仁", "核桃"],
+        "干辣椒": ["辣椒粉", "辣椒油"]
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein": 28,
+        "fat": 18,
+        "carbs": 12,
+        "fiber": 2
+      },
+      "tags": ["辣", "川菜", "下饭", "高蛋白"],
+      "steps": [
+        "鸡胸肉切丁，加入生抽、料酒、淀粉腌制15分钟",
+        "花生米炸至金黄酥脆，捞出备用",
+        "大葱切段，蒜姜切末",
+        "调酱汁：生抽、老抽、白糖、醋、淀粉和少许水调匀",
+        "热锅倒油，放入鸡丁滑散至变色盛出",
+        "锅中留底油，放入干辣椒和花椒炒香",
+        "加入葱姜蒜爆香",
+        "倒入鸡丁翻炒",
+        "淋入酱汁快速翻炒均匀",
+        "最后加入炸好的花生米，翻炒几下出锅"
+      ],
+      "tips": ["鸡丁要大火快炒保持嫩滑", "花生米最后放保持酥脆"]
+    },
+    {
+      "id": 4,
+      "name": "红烧肉",
+      "name_en": "Red Braised Pork",
+      "category": "家常菜",
+      "difficulty": "困难",
+      "time": "90分钟",
+      "servings": 4,
+      "ingredients": [
+        {"name": "五花肉", "amount": "500克", "category": "肉类"},
+        {"name": "冰糖", "amount": "30克", "category": "调料"},
+        {"name": "生抽", "amount": "2汤匙", "category": "调料"},
+        {"name": "老抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "料酒", "amount": "2汤匙", "category": "调料"},
+        {"name": "八角", "amount": "2个", "category": "调料"},
+        {"name": "桂皮", "amount": "1小块", "category": "调料"},
+        {"name": "姜片", "amount": "3片", "category": "蔬菜"},
+        {"name": "大葱", "amount": "1根", "category": "蔬菜"},
+        {"name": "清水", "amount": "适量", "category": "其他"}
+      ],
+      "substitutions": {
+        "五花肉": ["梅花肉", "后腿肉"],
+        "冰糖": ["白糖", "红糖"],
+        "八角": ["五香粉"],
+        "桂皮": ["香叶"]
+      },
+      "nutrition": {
+        "calories": 450,
+        "protein": 15,
+        "fat": 38,
+        "carbs": 8,
+        "fiber": 0
+      },
+      "tags": ["经典", "下饭", "高热量"],
+      "steps": [
+        "五花肉切成3厘米见方的块，冷水下锅焯水去血沫，捞出洗净",
+        "锅中放少许油，放入冰糖小火炒至焦糖色",
+        "放入肉块翻炒上色",
+        "加入料酒、生抽、老抽翻炒均匀",
+        "放入姜片、葱段、八角、桂皮",
+        "加入开水没过肉块，大火烧开后转小火炖煮60分钟",
+        "大火收汁至浓稠",
+        "出锅装盘"
+      ],
+      "tips": ["炒糖色要小火，避免发苦", "一定要用开水，肉质更嫩"]
+    },
+    {
+      "id": 5,
+      "name": "糖醋排骨",
+      "name_en": "Sweet and Sour Pork Ribs",
+      "category": "家常菜",
+      "difficulty": "中等",
+      "time": "45分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "猪排骨", "amount": "500克", "category": "肉类"},
+        {"name": "白糖", "amount": "3汤匙", "category": "调料"},
+        {"name": "香醋", "amount": "2汤匙", "category": "调料"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "料酒", "amount": "1汤匙", "category": "调料"},
+        {"name": "番茄酱", "amount": "2汤匙", "category": "调料"},
+        {"name": "姜片", "amount": "3片", "category": "蔬菜"},
+        {"name": "蒜", "amount": "2瓣", "category": "蔬菜"},
+        {"name": "白芝麻", "amount": "适量", "category": "装饰"},
+        {"name": "食用油", "amount": "适量", "category": "调料"}
+      ],
+      "substitutions": {
+        "猪排骨": ["里脊肉", "五花肉"],
+        "香醋": ["陈醋", "白醋"],
+        "番茄酱": ["番茄沙司", "新鲜番茄"]
+      },
+      "nutrition": {
+        "calories": 380,
+        "protein": 22,
+        "fat": 24,
+        "carbs": 18,
+        "fiber": 1
+      },
+      "tags": ["甜酸", "下饭", "聚会菜"],
+      "steps": [
+        "排骨剁成小块，冷水下锅焯水，捞出沥干",
+        "热锅倒油，放入排骨煎至两面金黄",
+        "加入姜片、蒜末炒香",
+        "调入料酒、生抽翻炒均匀",
+        "加入开水没过排骨，大火烧开转小火煮30分钟",
+        "调入白糖、香醋、番茄酱",
+        "大火收汁，不停翻炒使排骨裹满酱汁",
+        "出锅撒白芝麻"
+      ],
+      "tips": ["糖醋比例约为3:2", "收汁时要不停翻炒防糊"]
+    },
+    {
+      "id": 6,
+      "name": "青椒土豆丝",
+      "name_en": "Stir-fried Shredded Potatoes with Peppers",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "15分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "土豆", "amount": "2个", "category": "蔬菜"},
+        {"name": "青椒", "amount": "2个", "category": "蔬菜"},
+        {"name": "干辣椒", "amount": "3个", "category": "调料"},
+        {"name": "蒜", "amount": "2瓣", "category": "蔬菜"},
+        {"name": "花椒", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "醋", "amount": "1汤匙", "category": "调料"},
+        {"name": "盐", "amount": "1茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "青椒": ["红椒", "尖椒", "彩椒"],
+        "土豆": ["红薯", "山药"],
+        "干辣椒": ["辣椒油", "泡椒"]
+      },
+      "nutrition": {
+        "calories": 120,
+        "protein": 3,
+        "fat": 7,
+        "carbs": 15,
+        "fiber": 3
+      },
+      "tags": ["素食", "低卡", "酸辣"],
+      "steps": [
+        "土豆去皮切细丝，放入清水中浸泡去淀粉",
+        "青椒切丝，蒜切末",
+        "热锅倒油，放入花椒和干辣椒爆香",
+        "加入土豆丝大火快炒",
+        "土豆丝变色后加入青椒丝",
+        "调入盐和醋，快速翻炒均匀",
+        "出锅装盘"
+      ],
+      "tips": ["土豆丝要切均匀，这样熟度一致", "大火快炒保持脆爽"]
+    },
+    {
+      "id": 7,
+      "name": "酸菜鱼",
+      "name_en": "Fish with Pickled Mustard Greens",
+      "category": "川菜",
+      "difficulty": "困难",
+      "time": "40分钟",
+      "servings": 4,
+      "ingredients": [
+        {"name": "草鱼", "amount": "1条(约1.5kg)", "category": "水产"},
+        {"name": "酸菜", "amount": "300克", "category": "蔬菜"},
+        {"name": "泡椒", "amount": "10个", "category": "调料"},
+        {"name": "干辣椒", "amount": "15个", "category": "调料"},
+        {"name": "花椒", "amount": "1汤匙", "category": "调料"},
+        {"name": "姜", "amount": "1块", "category": "蔬菜"},
+        {"name": "蒜", "amount": "5瓣", "category": "蔬菜"},
+        {"name": "鸡蛋清", "amount": "1个", "category": "蛋奶"},
+        {"name": "淀粉", "amount": "2汤匙", "category": "调料"},
+        {"name": "料酒", "amount": "2汤匙", "category": "调料"},
+        {"name": "盐", "amount": "适量", "category": "调料"},
+        {"name": "食用油", "amount": "100ml", "category": "调料"}
+      ],
+      "substitutions": {
+        "草鱼": ["黑鱼", "鲈鱼", "龙利鱼"],
+        "酸菜": ["酸豆角", "泡菜"],
+        "泡椒": ["野山椒", "小米辣"]
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein": 25,
+        "fat": 12,
+        "carbs": 3,
+        "fiber": 1
+      },
+      "tags": ["辣", "酸", "聚会菜", "高蛋白"],
+      "steps": [
+        "草鱼处理干净，片成鱼片，鱼骨切段",
+        "鱼片加入料酒、盐、蛋清、淀粉抓匀腌制15分钟",
+        "酸菜洗净切段，泡椒切段",
+        "热锅倒油，放入鱼骨煎至金黄",
+        "加入姜片、蒜末、泡椒炒香",
+        "放入酸菜翻炒均匀",
+        "加入开水煮沸，小火煮15分钟成鱼汤",
+        "捞出鱼骨和酸菜放入碗底",
+        "汤底保持微沸，放入鱼片滑散",
+        "鱼片变白后连汤倒入碗中",
+        "另起锅热油，放入干辣椒和花椒炸香",
+        "将热油浇在鱼片上"
+      ],
+      "tips": ["鱼片要薄且均匀", "煮鱼片时水不要沸腾太厉害，防止碎裂"]
+    },
+    {
+      "id": 8,
+      "name": "蒜蓉西兰花",
+      "name_en": "Garlic Broccoli",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "10分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "西兰花", "amount": "300克", "category": "蔬菜"},
+        {"name": "蒜", "amount": "5瓣", "category": "蔬菜"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "蚝油", "amount": "1汤匙", "category": "调料"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "西兰花": ["花椰菜", "芦笋", "荷兰豆"],
+        "蚝油": ["生抽+糖", "鲍鱼汁"]
+      },
+      "nutrition": {
+        "calories": 85,
+        "protein": 5,
+        "fat": 5,
+        "carbs": 8,
+        "fiber": 4
+      },
+      "tags": ["素食", "低卡", "健康"],
+      "steps": [
+        "西兰花切小朵，用盐水浸泡10分钟",
+        "烧开水，加少许盐和油，放入西兰花焯烫1分钟",
+        "捞出过凉水，沥干备用",
+        "蒜切末",
+        "热锅倒油，放入一半蒜末小火炒至金黄",
+        "放入西兰花大火快炒",
+        "调入生抽、蚝油和盐",
+        "加入剩余蒜末，翻炒均匀出锅"
+      ],
+      "tips": ["焯水时加盐和油保持翠绿", "分两次加蒜，蒜香更浓郁"]
+    },
+    {
+      "id": 9,
+      "name": "蚝油生菜",
+      "name_en": "Lettuce with Oyster Sauce",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "8分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "生菜", "amount": "2颗", "category": "蔬菜"},
+        {"name": "蒜", "amount": "3瓣", "category": "蔬菜"},
+        {"name": "蚝油", "amount": "1.5汤匙", "category": "调料"},
+        {"name": "生抽", "amount": "1茶匙", "category": "调料"},
+        {"name": "白糖", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "水淀粉", "amount": "少许", "category": "调料"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "生菜": ["油麦菜", "空心菜", "菠菜"],
+        "蚝油": ["生抽+糖", "蒸鱼豉油"]
+      },
+      "nutrition": {
+        "calories": 65,
+        "protein": 3,
+        "fat": 4,
+        "carbs": 6,
+        "fiber": 2
+      },
+      "tags": ["素食", "低卡", "快手菜"],
+      "steps": [
+        "生菜掰开洗净",
+        "烧开水，放入生菜焯烫30秒",
+        "捞出沥干，摆入盘中",
+        "蒜切末",
+        "热锅倒油，放入蒜末炒香",
+        "加入蚝油、生抽、糖和少许水煮沸",
+        "淋入水淀粉勾芡",
+        "将酱汁浇在生菜上"
+      ],
+      "tips": ["焯水时间不要长，保持脆嫩", "酱汁可以稍咸一点，因为生菜淡"]
+    },
+    {
+      "id": 10,
+      "name": "蚂蚁上树",
+      "name_en": "Ants Climbing a Tree",
+      "category": "川菜",
+      "difficulty": "中等",
+      "time": "20分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "粉丝", "amount": "100克", "category": "主食"},
+        {"name": "猪肉末", "amount": "150克", "category": "肉类"},
+        {"name": "郫县豆瓣酱", "amount": "1汤匙", "category": "调料"},
+        {"name": "姜末", "amount": "1茶匙", "category": "蔬菜"},
+        {"name": "蒜末", "amount": "2瓣", "category": "蔬菜"},
+        {"name": "葱花", "amount": "适量", "category": "蔬菜"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "料酒", "amount": "1汤匙", "category": "调料"},
+        {"name": "白糖", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "粉丝": ["粉条", "红薯粉"],
+        "猪肉末": ["牛肉末", "鸡肉末"],
+        "郫县豆瓣酱": ["豆豉酱", "辣椒酱"]
+      },
+      "nutrition": {
+        "calories": 290,
+        "protein": 12,
+        "fat": 15,
+        "carbs": 28,
+        "fiber": 1
+      },
+      "tags": ["辣", "川菜", "主食"],
+      "steps": [
+        "粉丝用温水泡软，剪短",
+        "热锅倒油，放入肉末炒散",
+        "加入豆瓣酱炒出红油",
+        "放入姜末、蒜末炒香",
+        "加入料酒、生抽、白糖",
+        "加入半碗水煮沸",
+        "放入粉丝，小火煮3-5分钟",
+        "大火收汁，撒上葱花出锅"
+      ],
+      "tips": ["粉丝不要泡太久，保持有嚼劲", "水不要太多，粉丝会吸收"]
+    },
+    {
+      "id": 11,
+      "name": "青椒肉丝",
+      "name_en": "Stir-fried Pork with Green Peppers",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "15分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "猪里脊肉", "amount": "200克", "category": "肉类"},
+        {"name": "青椒", "amount": "3个", "category": "蔬菜"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "料酒", "amount": "1汤匙", "category": "调料"},
+        {"name": "淀粉", "amount": "1汤匙", "category": "调料"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "猪里脊肉": ["鸡胸肉", "牛肉"],
+        "青椒": ["彩椒", "尖椒"],
+        "淀粉": ["蛋清", "嫩肉粉"]
+      },
+      "nutrition": {
+        "calories": 195,
+        "protein": 18,
+        "fat": 11,
+        "carbs": 5,
+        "fiber": 2
+      },
+      "tags": ["家常", "快手菜", "下饭"],
+      "steps": [
+        "猪肉切丝，加生抽、料酒、淀粉腌制10分钟",
+        "青椒切丝",
+        "热锅倒油，放入肉丝快速滑散",
+        "炒至变色盛出",
+        "锅中留底油，放入青椒丝翻炒",
+        "加入肉丝一起炒",
+        "调入盐，翻炒均匀出锅"
+      ],
+      "tips": ["肉丝要顺纹切", "大火快炒保持嫩滑"]
+    },
+    {
+      "id": 12,
+      "name": "家常豆腐",
+      "name_en": "Home-style Tofu",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "20分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "北豆腐", "amount": "400克", "category": "豆制品"},
+        {"name": "木耳", "amount": "10朵", "category": "菌菇"},
+        {"name": "胡萝卜", "amount": "1根", "category": "蔬菜"},
+        {"name": "青椒", "amount": "1个", "category": "蔬菜"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "蚝油", "amount": "1汤匙", "category": "调料"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "水淀粉", "amount": "适量", "category": "调料"},
+        {"name": "食用油", "amount": "适量", "category": "调料"}
+      ],
+      "substitutions": {
+        "北豆腐": ["嫩豆腐", "油豆腐"],
+        "木耳": ["香菇", "杏鲍菇"],
+        "胡萝卜": ["青豆", "玉米粒"]
+      },
+      "nutrition": {
+        "calories": 165,
+        "protein": 12,
+        "fat": 10,
+        "carbs": 8,
+        "fiber": 2
+      },
+      "tags": ["素食", "下饭", "营养"],
+      "steps": [
+        "豆腐切块，木耳泡发撕小",
+        "胡萝卜切片，青椒切块",
+        "豆腐煎至两面金黄盛出",
+        "热锅倒油，放入胡萝卜、木耳翻炒",
+        "加入豆腐和青椒",
+        "调入生抽、蚝油和盐",
+        "加少许水焖煮2分钟",
+        "淋入水淀粉勾芡出锅"
+      ],
+      "tips": ["豆腐煎至金黄更香", "勾芡让菜更有光泽"]
+    },
+    {
+      "id": 13,
+      "name": "西红柿鸡蛋汤",
+      "name_en": "Tomato and Egg Soup",
+      "category": "汤品",
+      "difficulty": "简单",
+      "time": "15分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "番茄", "amount": "2个", "category": "蔬菜"},
+        {"name": "鸡蛋", "amount": "2个", "category": "蛋奶"},
+        {"name": "葱花", "amount": "适量", "category": "蔬菜"},
+        {"name": "盐", "amount": "1茶匙", "category": "调料"},
+        {"name": "香油", "amount": "1茶匙", "category": "调料"},
+        {"name": "水淀粉", "amount": "少许", "category": "调料"},
+        {"name": "清水", "amount": "800ml", "category": "其他"}
+      ],
+      "substitutions": {
+        "番茄": ["番茄酱", "圣女果"],
+        "鸡蛋": ["鸭蛋"],
+        "香油": ["花生油", "橄榄油"]
+      },
+      "nutrition": {
+        "calories": 95,
+        "protein": 6,
+        "fat": 6,
+        "carbs": 5,
+        "fiber": 1
+      },
+      "tags": ["素食", "快手菜", "汤品"],
+      "steps": [
+        "番茄洗净切块",
+        "鸡蛋打散",
+        "烧开水，放入番茄煮5分钟",
+        "淋入蛋液，用筷子轻轻搅散",
+        "调入盐",
+        "淋入水淀粉勾薄芡",
+        "撒上葱花，滴入香油出锅"
+      ],
+      "tips": ["蛋液要细流状倒入", "可以加少许糖提鲜"]
+    },
+    {
+      "id": 14,
+      "name": "蒜蓉粉丝蒸虾",
+      "name_en": "Steamed Shrimp with Garlic Vermicelli",
+      "category": "海鲜",
+      "difficulty": "中等",
+      "time": "20分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "鲜虾", "amount": "12只", "category": "水产"},
+        {"name": "粉丝", "amount": "1把", "category": "主食"},
+        {"name": "蒜", "amount": "6瓣", "category": "蔬菜"},
+        {"name": "蒸鱼豉油", "amount": "2汤匙", "category": "调料"},
+        {"name": "料酒", "amount": "1汤匙", "category": "调料"},
+        {"name": "白胡椒粉", "amount": "少许", "category": "调料"},
+        {"name": "葱花", "amount": "适量", "category": "蔬菜"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "鲜虾": ["虾仁", "扇贝", "蛤蜊"],
+        "粉丝": ["米粉", "魔芋丝"],
+        "蒸鱼豉油": ["生抽+糖"]
+      },
+      "nutrition": {
+        "calories": 145,
+        "protein": 18,
+        "fat": 4,
+        "carbs": 10,
+        "fiber": 0
+      },
+      "tags": ["海鲜", "高蛋白", "清淡"],
+      "steps": [
+        "粉丝温水泡软",
+        "虾剪去虾须虾脚，开背去虾线",
+        "蒜切末，分两份",
+        "一半蒜末炒至金黄，与另一半混合",
+        "粉丝铺在盘底，摆上虾",
+        "撒上蒜末，淋上料酒",
+        "大火蒸5分钟",
+        "淋上蒸鱼豉油，撒葱花",
+        "浇上热油激发香味"
+      ],
+      "tips": ["虾开背更入味", "蒸的时间不要长，保持鲜嫩"]
+    },
+    {
+      "id": 15,
+      "name": "凉拌黄瓜",
+      "name_en": "Cucumber Salad",
+      "category": "凉菜",
+      "difficulty": "简单",
+      "time": "10分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "黄瓜", "amount": "2根", "category": "蔬菜"},
+        {"name": "蒜", "amount": "3瓣", "category": "蔬菜"},
+        {"name": "生抽", "amount": "2汤匙", "category": "调料"},
+        {"name": "醋", "amount": "1汤匙", "category": "调料"},
+        {"name": "香油", "amount": "1茶匙", "category": "调料"},
+        {"name": "辣椒油", "amount": "1茶匙", "category": "调料"},
+        {"name": "白糖", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "盐", "amount": "1茶匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "黄瓜": ["苦瓜", "西葫芦"],
+        "辣椒油": ["花椒油", "老干妈"],
+        "醋": ["白醋", "果醋"]
+      },
+      "nutrition": {
+        "calories": 45,
+        "protein": 1,
+        "fat": 3,
+        "carbs": 4,
+        "fiber": 1
+      },
+      "tags": ["素食", "低卡", "凉菜", "快手菜"],
+      "steps": [
+        "黄瓜洗净拍碎切段",
+        "加入盐腌制10分钟，倒出水分",
+        "蒜切末",
+        "加入蒜末、生抽、醋、香油、辣椒油、糖",
+        "拌匀腌制5分钟",
+        "装盘即可"
+      ],
+      "tips": ["拍碎比切段的更入味", "腌制后倒掉水更脆爽"]
+    },
+    {
+      "id": 16,
+      "name": "炒饭",
+      "name_en": "Fried Rice",
+      "category": "主食",
+      "difficulty": "简单",
+      "time": "15分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "米饭", "amount": "2碗", "category": "主食"},
+        {"name": "鸡蛋", "amount": "2个", "category": "蛋奶"},
+        {"name": "火腿肠", "amount": "1根", "category": "肉类"},
+        {"name": "胡萝卜", "amount": "1/4根", "category": "蔬菜"},
+        {"name": "青豆", "amount": "2汤匙", "category": "蔬菜"},
+        {"name": "葱", "amount": "1根", "category": "蔬菜"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "火腿肠": ["腊肉", "虾仁", "鸡肉"],
+        "青豆": ["玉米粒", "豌豆"],
+        "胡萝卜": ["黄瓜", "洋葱"]
+      },
+      "nutrition": {
+        "calories": 380,
+        "protein": 12,
+        "fat": 14,
+        "carbs": 52,
+        "fiber": 2
+      },
+      "tags": ["主食", "快手菜", "剩菜利用"],
+      "steps": [
+        "米饭提前一晚做好，冷藏过夜",
+        "鸡蛋打散，胡萝卜、火腿肠切丁",
+        "葱切葱花",
+        "热锅倒油，倒入蛋液炒散盛出",
+        "锅中倒油，放入胡萝卜、青豆翻炒",
+        "加入米饭炒散",
+        "加入火腿肠和鸡蛋",
+        "调入生抽和盐",
+        "撒上葱花，翻炒均匀出锅"
+      ],
+      "tips": ["用隔夜饭炒出来粒粒分明", "炒饭要大火快炒"]
+    },
+    {
+      "id": 17,
+      "name": "冬瓜排骨汤",
+      "name_en": "Winter Melon and Pork Rib Soup",
+      "category": "汤品",
+      "difficulty": "简单",
+      "time": "60分钟",
+      "servings": 4,
+      "ingredients": [
+        {"name": "排骨", "amount": "400克", "category": "肉类"},
+        {"name": "冬瓜", "amount": "500克", "category": "蔬菜"},
+        {"name": "姜", "amount": "3片", "category": "蔬菜"},
+        {"name": "葱", "amount": "1根", "category": "蔬菜"},
+        {"name": "料酒", "amount": "1汤匙", "category": "调料"},
+        {"name": "盐", "amount": "1茶匙", "category": "调料"},
+        {"name": "白胡椒粉", "amount": "少许", "category": "调料"}
+      ],
+      "substitutions": {
+        "排骨": ["瘦肉", "鸡骨架"],
+        "冬瓜": ["丝瓜", "瓠子", "西葫芦"]
+      },
+      "nutrition": {
+        "calories": 165,
+        "protein": 14,
+        "fat": 10,
+        "carbs": 5,
+        "fiber": 1
+      },
+      "tags": ["汤品", "清淡", "低卡"],
+      "steps": [
+        "排骨洗净焯水去血沫",
+        "冬瓜去皮切块",
+        "排骨放入锅中，加足量水",
+        "放入姜片、葱段、料酒",
+        "大火烧开后转小火煮40分钟",
+        "放入冬瓜块煮15分钟",
+        "调入盐和白胡椒粉",
+        "撒葱花出锅"
+      ],
+      "tips": ["冬瓜后放，保持形状", "可以加少许虾皮提鲜"]
+    },
+    {
+      "id": 18,
+      "name": "鱼香肉丝",
+      "name_en": "Fish-flavored Shredded Pork",
+      "category": "川菜",
+      "difficulty": "中等",
+      "time": "25分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "猪里脊肉", "amount": "200克", "category": "肉类"},
+        {"name": "木耳", "amount": "10朵", "category": "菌菇"},
+        {"name": "胡萝卜", "amount": "1根", "category": "蔬菜"},
+        {"name": "青椒", "amount": "1个", "category": "蔬菜"},
+        {"name": "泡椒", "amount": "3个", "category": "调料"},
+        {"name": "姜", "amount": "1小块", "category": "蔬菜"},
+        {"name": "蒜", "amount": "3瓣", "category": "蔬菜"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "醋", "amount": "1汤匙", "category": "调料"},
+        {"name": "白糖", "amount": "1汤匙", "category": "调料"},
+        {"name": "淀粉", "amount": "2汤匙", "category": "调料"},
+        {"name": "料酒", "amount": "1汤匙", "category": "调料"},
+        {"name": "食用油", "amount": "适量", "category": "调料"}
+      ],
+      "substitutions": {
+        "猪里脊肉": ["鸡胸肉", "牛肉"],
+        "木耳": ["笋丝", "黄花菜"],
+        "泡椒": ["豆瓣酱", "辣椒酱"]
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein": 18,
+        "fat": 12,
+        "carbs": 10,
+        "fiber": 2
+      },
+      "tags": ["川菜", "辣", "下饭"],
+      "steps": [
+        "猪肉切丝，加生抽、料酒、淀粉腌制",
+        "木耳、胡萝卜、青椒切丝",
+        "泡椒、姜、蒜切末",
+        "调酱汁：生抽、醋、糖、淀粉和水调匀",
+        "热锅倒油，放入肉丝滑散变色盛出",
+        "锅中留油，放入泡椒、姜蒜炒香",
+        "加入胡萝卜、木耳翻炒",
+        "倒入肉丝和青椒",
+        "淋入酱汁快速翻炒",
+        "汤汁浓稠即可出锅"
+      ],
+      "tips": ["鱼香汁糖醋比例1:1", "大火快炒保持脆嫩"]
+    },
+    {
+      "id": 19,
+      "name": "清蒸鲈鱼",
+      "name_en": "Steamed Sea Bass",
+      "category": "海鲜",
+      "difficulty": "中等",
+      "time": "20分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "鲈鱼", "amount": "1条(约500g)", "category": "水产"},
+        {"name": "葱", "amount": "2根", "category": "蔬菜"},
+        {"name": "姜", "amount": "1块", "category": "蔬菜"},
+        {"name": "蒸鱼豉油", "amount": "3汤匙", "category": "调料"},
+        {"name": "料酒", "amount": "1汤匙", "category": "调料"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "鲈鱼": ["石斑鱼", "多宝鱼", "鳜鱼"],
+        "蒸鱼豉油": ["生抽+糖", "蚝油+水"]
+      },
+      "nutrition": {
+        "calories": 145,
+        "protein": 26,
+        "fat": 4,
+        "carbs": 1,
+        "fiber": 0
+      },
+      "tags": ["海鲜", "高蛋白", "清淡", "健康"],
+      "steps": [
+        "鲈鱼处理干净，两面划几刀",
+        "用料酒腌制10分钟",
+        "盘中铺上葱段姜片",
+        "放上鱼，上面再放葱姜",
+        "大火蒸8-10分钟",
+        "取出倒掉盘中水，去掉葱姜",
+        "铺上新的葱丝",
+        "淋上蒸鱼豉油",
+        "浇上热油激发香味"
+      ],
+      "tips": ["水开后放鱼蒸", "蒸好后倒掉水去腥"]
+    },
+    {
+      "id": 20,
+      "name": "蒜苔炒肉",
+      "name_en": "Stir-fried Garlic Sprouts with Pork",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "15分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "蒜苔", "amount": "300克", "category": "蔬菜"},
+        {"name": "猪肉", "amount": "150克", "category": "肉类"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "料酒", "amount": "1茶匙", "category": "调料"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "蒜苔": ["芹菜", "豆角", "韭菜苔"],
+        "猪肉": ["腊肉", "腊肠"]
+      },
+      "nutrition": {
+        "calories": 175,
+        "protein": 12,
+        "fat": 11,
+        "carbs": 7,
+        "fiber": 2
+      },
+      "tags": ["家常", "下饭"],
+      "steps": [
+        "蒜苔洗净切段",
+        "猪肉切丝或片",
+        "热锅倒油，放入肉炒至变色",
+        "加入蒜苔大火翻炒",
+        "调入生抽、料酒、盐",
+        "翻炒2-3分钟至蒜苔断生",
+        "出锅装盘"
+      ],
+      "tips": ["蒜苔不要炒太久，保持脆嫩", "可以用腊肉更香"]
+    },
+    {
+      "id": 21,
+      "name": "口水鸡",
+      "name_en": "Saliva Chicken",
+      "category": "川菜",
+      "difficulty": "中等",
+      "time": "40分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "鸡腿肉", "amount": "2个", "category": "肉类"},
+        {"name": "花生米", "amount": "30克", "category": "坚果"},
+        {"name": "芝麻", "amount": "1汤匙", "category": "调料"},
+        {"name": "蒜", "amount": "4瓣", "category": "蔬菜"},
+        {"name": "姜", "amount": "1小块", "category": "蔬菜"},
+        {"name": "花椒", "amount": "1茶匙", "category": "调料"},
+        {"name": "辣椒油", "amount": "3汤匙", "category": "调料"},
+        {"name": "生抽", "amount": "2汤匙", "category": "调料"},
+        {"name": "醋", "amount": "1汤匙", "category": "调料"},
+        {"name": "白糖", "amount": "1茶匙", "category": "调料"},
+        {"name": "料酒", "amount": "1汤匙", "category": "调料"},
+        {"name": "香油", "amount": "1茶匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "鸡腿肉": ["鸡胸肉", "整鸡"],
+        "花生米": ["芝麻", "核桃"],
+        "辣椒油": ["老干妈", "辣椒酱"]
+      },
+      "nutrition": {
+        "calories": 285,
+        "protein": 22,
+        "fat": 20,
+        "carbs": 5,
+        "fiber": 1
+      },
+      "tags": ["川菜", "辣", "凉菜", "聚会菜"],
+      "steps": [
+        "鸡腿肉冷水下锅，加姜、料酒煮20分钟",
+        "捞出放入冰水中冷却后撕成条",
+        "蒜切末，花生米压碎",
+        "调酱汁：生抽、醋、糖、辣椒油、香油调匀",
+        "鸡肉装盘，淋上酱汁",
+        "撒上花生米、芝麻",
+        "可以加入黄瓜丝垫底"
+      ],
+      "tips": ["煮好后冰水浸泡肉质更嫩", "酱汁比例可根据口味调整"]
+    },
+    {
+      "id": 22,
+      "name": "莲藕排骨汤",
+      "name_en": "Lotus Root and Pork Rib Soup",
+      "category": "汤品",
+      "difficulty": "简单",
+      "time": "90分钟",
+      "servings": 4,
+      "ingredients": [
+        {"name": "排骨", "amount": "400克", "category": "肉类"},
+        {"name": "莲藕", "amount": "500克", "category": "蔬菜"},
+        {"name": "姜", "amount": "3片", "category": "蔬菜"},
+        {"name": "葱", "amount": "1根", "category": "蔬菜"},
+        {"name": "料酒", "amount": "1汤匙", "category": "调料"},
+        {"name": "盐", "amount": "1茶匙", "category": "调料"},
+        {"name": "白胡椒粉", "amount": "少许", "category": "调料"}
+      ],
+      "substitutions": {
+        "莲藕": ["山药", "白萝卜", "玉米"],
+        "排骨": ["筒骨", "瘦肉"]
+      },
+      "nutrition": {
+        "calories": 185,
+        "protein": 13,
+        "fat": 12,
+        "carbs": 8,
+        "fiber": 3
+      },
+      "tags": ["汤品", "养生", "湖北菜"],
+      "steps": [
+        "排骨洗净焯水",
+        "莲藕去皮切块",
+        "排骨放入锅中，加足量水",
+        "放入姜片、葱段、料酒",
+        "大火烧开后转小火煮40分钟",
+        "放入莲藕煮30分钟",
+        "调入盐和白胡椒粉",
+        "撒葱花出锅"
+      ],
+      "tips": ["选粉藕更糯", "莲藕切大块防碎"]
+    },
+    {
+      "id": 23,
+      "name": "三杯鸡",
+      "name_en": "Three Cup Chicken",
+      "category": "台湾菜",
+      "difficulty": "中等",
+      "time": "30分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "鸡腿肉", "amount": "500克", "category": "肉类"},
+        {"name": "九层塔", "amount": "1把", "category": "蔬菜"},
+        {"name": "姜", "amount": "10片", "category": "蔬菜"},
+        {"name": "蒜", "amount": "6瓣", "category": "蔬菜"},
+        {"name": "芝麻油", "amount": "3汤匙", "category": "调料"},
+        {"name": "生抽", "amount": "3汤匙", "category": "调料"},
+        {"name": "米酒", "amount": "3汤匙", "category": "调料"},
+        {"name": "冰糖", "amount": "1汤匙", "category": "调料"},
+        {"name": "干辣椒", "amount": "3个", "category": "调料"}
+      ],
+      "substitutions": {
+        "九层塔": ["香菜", "薄荷叶", "罗勒"],
+        "米酒": ["料酒", "黄酒"],
+        "鸡腿肉": ["鸡翅", "三黄鸡"]
+      },
+      "nutrition": {
+        "calories": 295,
+        "protein": 24,
+        "fat": 18,
+        "carbs": 6,
+        "fiber": 0
+      },
+      "tags": ["台湾菜", "香", "经典"],
+      "steps": [
+        "鸡腿肉切块",
+        "热锅倒入芝麻油，放入姜片煸香",
+        "加入蒜瓣和干辣椒",
+        "放入鸡块炒至变色",
+        "加入生抽、米酒、冰糖",
+        "大火烧开后转小火焖煮15分钟",
+        "大火收汁",
+        "关火前加入九层塔翻炒均匀"
+      ],
+      "tips": ["三杯指一杯油、一杯酱油、一杯酒", "九层塔最后放保持香味"]
+    },
+    {
+      "id": 24,
+      "name": "鸡蛋羹",
+      "name_en": "Steamed Egg Custard",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "15分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "鸡蛋", "amount": "3个", "category": "蛋奶"},
+        {"name": "温水", "amount": "250ml", "category": "其他"},
+        {"name": "生抽", "amount": "1茶匙", "category": "调料"},
+        {"name": "香油", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "葱花", "amount": "适量", "category": "蔬菜"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "鸡蛋": ["鸭蛋", "鹅蛋"],
+        "香油": ["花生油", "橄榄油"]
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein": 12,
+        "fat": 10,
+        "carbs": 2,
+        "fiber": 0
+      },
+      "tags": ["素食", "快手菜", "营养", "老少皆宜"],
+      "steps": [
+        "鸡蛋打散，加入盐",
+        "加入温水（蛋液1.5倍），搅拌均匀",
+        "过筛去除气泡",
+        "盖上保鲜膜，扎几个小孔",
+        "水开后蒸8-10分钟",
+        "出锅淋上生抽和香油",
+        "撒上葱花"
+      ],
+      "tips": ["用温水蛋液更嫩", "过筛后口感更细腻"]
+    },
+    {
+      "id": 25,
+      "name": "糖醋里脊",
+      "name_en": "Sweet and Sour Pork Tenderloin",
+      "category": "家常菜",
+      "difficulty": "中等",
+      "time": "30分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "猪里脊肉", "amount": "300克", "category": "肉类"},
+        {"name": "鸡蛋", "amount": "1个", "category": "蛋奶"},
+        {"name": "淀粉", "amount": "3汤匙", "category": "调料"},
+        {"name": "面粉", "amount": "2汤匙", "category": "主食"},
+        {"name": "白糖", "amount": "3汤匙", "category": "调料"},
+        {"name": "醋", "amount": "2汤匙", "category": "调料"},
+        {"name": "番茄酱", "amount": "2汤匙", "category": "调料"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "料酒", "amount": "1汤匙", "category": "调料"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "适量", "category": "调料"}
+      ],
+      "substitutions": {
+        "猪里脊肉": ["鸡胸肉", "鱼肉"],
+        "番茄酱": ["番茄沙司", "新鲜番茄"],
+        "淀粉": ["红薯淀粉", "玉米淀粉"]
+      },
+      "nutrition": {
+        "calories": 365,
+        "protein": 20,
+        "fat": 18,
+        "carbs": 32,
+        "fiber": 0
+      },
+      "tags": ["甜酸", "聚会菜", "下饭菜"],
+      "steps": [
+        "里脊肉切条，加料酒、盐腌制",
+        "调面糊：鸡蛋、淀粉、面粉和水调成糊状",
+        "肉条裹上面糊",
+        "油温六成热，放入肉条炸至金黄",
+        "捞出沥油，提高油温复炸30秒",
+        "调糖醋汁：糖、醋、番茄酱、生抽、水淀粉",
+        "锅中留少许油，倒入糖醋汁煮至浓稠",
+        "倒入炸好的肉条快速翻炒均匀",
+        "出锅装盘，可撒芝麻"
+      ],
+      "tips": ["复炸更酥脆", "糖醋汁比例3:2"]
+    },
+    {
+      "id": 26,
+      "name": "可乐鸡翅",
+      "name_en": "Coca-Cola Chicken Wings",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "30分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "鸡翅中", "amount": "10个", "category": "肉类"},
+        {"name": "可乐", "amount": "1罐(330ml)", "category": "饮料"},
+        {"name": "生抽", "amount": "2汤匙", "category": "调料"},
+        {"name": "老抽", "amount": "1茶匙", "category": "调料"},
+        {"name": "料酒", "amount": "1汤匙", "category": "调料"},
+        {"name": "姜", "amount": "3片", "category": "蔬菜"},
+        {"name": "葱", "amount": "1根", "category": "蔬菜"},
+        {"name": "盐", "amount": "适量", "category": "调料"}
+      ],
+      "substitutions": {
+        "鸡翅中": ["鸡翅根", "鸡腿"],
+        "可乐": ["雪碧+老抽", "冰糖+醋"]
+      },
+      "nutrition": {
+        "calories": 285,
+        "protein": 22,
+        "fat": 18,
+        "carbs": 12,
+        "fiber": 0
+      },
+      "tags": ["家常", "甜", "聚会菜", "网红菜"],
+      "steps": [
+        "鸡翅两面划几刀",
+        "冷水下锅焯水去血沫",
+        "热锅倒油，放入鸡翅煎至两面金黄",
+        "放入姜片炒香",
+        "加入料酒、生抽、老抽",
+        "倒入可乐没过鸡翅",
+        "大火烧开后转中火煮15分钟",
+        "大火收汁至浓稠",
+        "装盘撒葱花"
+      ],
+      "tips": ["收汁时不停翻动防糊", "可乐含糖量高，不用额外加糖"]
+    },
+    {
+      "id": 27,
+      "name": "地三鲜",
+      "name_en": "Di San Xian",
+      "category": "东北菜",
+      "difficulty": "中等",
+      "time": "25分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "茄子", "amount": "2个", "category": "蔬菜"},
+        {"name": "土豆", "amount": "2个", "category": "蔬菜"},
+        {"name": "青椒", "amount": "2个", "category": "蔬菜"},
+        {"name": "蒜", "amount": "4瓣", "category": "蔬菜"},
+        {"name": "生抽", "amount": "2汤匙", "category": "调料"},
+        {"name": "蚝油", "amount": "1汤匙", "category": "调料"},
+        {"name": "白糖", "amount": "1茶匙", "category": "调料"},
+        {"name": "淀粉", "amount": "2汤匙", "category": "调料"},
+        {"name": "食用油", "amount": "适量", "category": "调料"}
+      ],
+      "substitutions": {
+        "茄子": ["长茄", "圆茄"],
+        "土豆": ["红薯", "山药"],
+        "青椒": ["彩椒", "尖椒"]
+      },
+      "nutrition": {
+        "calories": 245,
+        "protein": 5,
+        "fat": 15,
+        "carbs": 28,
+        "fiber": 4
+      },
+      "tags": ["东北菜", "素食", "下饭"],
+      "steps": [
+        "茄子、土豆切滚刀块，青椒切片",
+        "茄子撒盐腌制10分钟，挤干水分",
+        "土豆炸至金黄捞出",
+        "茄子炸至微软捞出",
+        "调酱汁：生抽、蚝油、糖、淀粉和水",
+        "锅中留底油，爆香蒜末",
+        "放入青椒翻炒",
+        "倒入茄子和土豆",
+        "淋入酱汁翻炒均匀",
+        "汤汁浓稠出锅"
+      ],
+      "tips": ["茄子撒盐后炸省油", "土豆要先炸透"]
+    },
+    {
+      "id": 28,
+      "name": "回锅肉",
+      "name_en": "Twice-Cooked Pork",
+      "category": "川菜",
+      "difficulty": "中等",
+      "time": "40分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "五花肉", "amount": "400克", "category": "肉类"},
+        {"name": "青椒", "amount": "2个", "category": "蔬菜"},
+        {"name": "蒜苗", "amount": "3根", "category": "蔬菜"},
+        {"name": "郫县豆瓣酱", "amount": "1.5汤匙", "category": "调料"},
+        {"name": "甜面酱", "amount": "1茶匙", "category": "调料"},
+        {"name": "豆豉", "amount": "1茶匙", "category": "调料"},
+        {"name": "姜", "amount": "1小块", "category": "蔬菜"},
+        {"name": "蒜", "amount": "3瓣", "category": "蔬菜"},
+        {"name": "料酒", "amount": "1汤匙", "category": "调料"},
+        {"name": "白糖", "amount": "1/2茶匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "五花肉": ["后腿肉", "前腿肉"],
+        "蒜苗": ["青椒", "洋葱", "芹菜"],
+        "郫县豆瓣酱": ["豆豉酱", "辣椒酱"]
+      },
+      "nutrition": {
+        "calories": 385,
+        "protein": 14,
+        "fat": 32,
+        "carbs": 8,
+        "fiber": 2
+      },
+      "tags": ["川菜", "经典", "下饭"],
+      "steps": [
+        "五花肉整块冷水下锅，加姜片、料酒煮20分钟",
+        "捞出晾凉切片",
+        "青椒切块，蒜苗切段",
+        "热锅不放油，放入肉片煸出油",
+        "肉片卷曲后推到一边",
+        "放入豆瓣酱炒出红油",
+        "加入姜蒜末、豆豉、甜面酱炒香",
+        "放入青椒、蒜苗翻炒",
+        "调入白糖，翻炒均匀出锅"
+      ],
+      "tips": ["肉片要切薄", "煸肉时小火慢煸出灯盏窝"]
+    },
+    {
+      "id": 29,
+      "name": "小葱拌豆腐",
+      "name_en": "Tofu with Scallion",
+      "category": "凉菜",
+      "difficulty": "简单",
+      "time": "10分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "嫩豆腐", "amount": "1盒(300g)", "category": "豆制品"},
+        {"name": "小葱", "amount": "1把", "category": "蔬菜"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "香油", "amount": "1茶匙", "category": "调料"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "嫩豆腐": ["内酯豆腐", "北豆腐"],
+        "小葱": ["大葱", "香菜"],
+        "香油": ["花椒油", "辣椒油"]
+      },
+      "nutrition": {
+        "calories": 95,
+        "protein": 8,
+        "fat": 6,
+        "carbs": 3,
+        "fiber": 1
+      },
+      "tags": ["素食", "低卡", "凉菜", "快手菜"],
+      "steps": [
+        "豆腐切块，用开水焯一下",
+        "捞出沥干，放入盘中",
+        "小葱切葱花",
+        "豆腐上撒上葱花",
+        "淋上生抽和香油",
+        "吃时拌匀即可"
+      ],
+      "tips": ["豆腐焯水可以去豆腥味", "现拌现吃更清爽"]
+    },
+    {
+      "id": 30,
+      "name": "豆腐脑",
+      "name_en": "Tofu Pudding",
+      "category": "早餐",
+      "difficulty": "中等",
+      "time": "30分钟",
+      "servings": 4,
+      "ingredients": [
+        {"name": "内酯豆腐", "amount": "1盒", "category": "豆制品"},
+        {"name": "木耳", "amount": "5朵", "category": "菌菇"},
+        {"name": "黄花", "amount": "1小把", "category": "蔬菜"},
+        {"name": "鸡蛋", "amount": "1个", "category": "蛋奶"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "盐", "amount": "1茶匙", "category": "调料"},
+        {"name": "水淀粉", "amount": "适量", "category": "调料"},
+        {"name": "香油", "amount": "1茶匙", "category": "调料"},
+        {"name": "香菜", "amount": "适量", "category": "蔬菜"}
+      ],
+      "substitutions": {
+        "内酯豆腐": ["嫩豆腐", "豆花"],
+        "黄花": ["木耳", "香菇"],
+        "香菜": ["葱花", "榨菜"]
+      },
+      "nutrition": {
+        "calories": 85,
+        "protein": 7,
+        "fat": 4,
+        "carbs": 5,
+        "fiber": 1
+      },
+      "tags": ["素食", "早餐", "低卡"],
+      "steps": [
+        "木耳、黄花泡发",
+        "豆腐放入碗中蒸5分钟",
+        "热锅倒油，放入木耳黄花翻炒",
+        "加入生抽和适量水",
+        "淋入蛋液搅散",
+        "勾芡使汤汁浓稠",
+        "将卤汁浇在豆腐上",
+        "淋香油，撒香菜"
+      ],
+      "tips": ["可咸可甜，根据个人口味", "咸卤可以配韭菜花、辣椒油"]
+    },
+    {
+      "id": 31,
+      "name": "紫菜蛋花汤",
+      "name_en": "Seaweed and Egg Drop Soup",
+      "category": "汤品",
+      "difficulty": "简单",
+      "time": "10分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "紫菜", "amount": "1张", "category": "水产"},
+        {"name": "鸡蛋", "amount": "2个", "category": "蛋奶"},
+        {"name": "虾皮", "amount": "1汤匙", "category": "水产"},
+        {"name": "葱花", "amount": "适量", "category": "蔬菜"},
+        {"name": "盐", "amount": "1茶匙", "category": "调料"},
+        {"name": "香油", "amount": "1茶匙", "category": "调料"},
+        {"name": "白胡椒粉", "amount": "少许", "category": "调料"}
+      ],
+      "substitutions": {
+        "紫菜": ["海带", "裙带菜"],
+        "虾皮": ["干贝", "海米"],
+        "鸡蛋": ["鸭蛋"]
+      },
+      "nutrition": {
+        "calories": 65,
+        "protein": 6,
+        "fat": 4,
+        "carbs": 2,
+        "fiber": 0
+      },
+      "tags": ["素食", "快手菜", "汤品", "低卡"],
+      "steps": [
+        "紫菜撕碎，虾皮洗净",
+        "烧开水，放入紫菜和虾皮",
+        "鸡蛋打散",
+        "淋入蛋液，用筷子搅散",
+        "调入盐和白胡椒粉",
+        "撒葱花，淋香油出锅"
+      ],
+      "tips": ["蛋液细流状倒入", "虾皮提鲜"]
+    },
+    {
+      "id": 32,
+      "name": "干煸四季豆",
+      "name_en": "Dry-fried Green Beans",
+      "category": "川菜",
+      "difficulty": "中等",
+      "time": "20分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "四季豆", "amount": "400克", "category": "蔬菜"},
+        {"name": "猪肉末", "amount": "100克", "category": "肉类"},
+        {"name": "干辣椒", "amount": "8个", "category": "调料"},
+        {"name": "花椒", "amount": "1茶匙", "category": "调料"},
+        {"name": "蒜", "amount": "4瓣", "category": "蔬菜"},
+        {"name": "姜", "amount": "1小块", "category": "蔬菜"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "料酒", "amount": "1茶匙", "category": "调料"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "白糖", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "适量", "category": "调料"}
+      ],
+      "substitutions": {
+        "四季豆": ["豇豆", "扁豆", "荷兰豆"],
+        "猪肉末": ["牛肉末", "素肉末"],
+        "干辣椒": ["辣椒油", "泡椒"]
+      },
+      "nutrition": {
+        "calories": 185,
+        "protein": 10,
+        "fat": 12,
+        "carbs": 10,
+        "fiber": 4
+      },
+      "tags": ["川菜", "辣", "素食"],
+      "steps": [
+        "四季豆摘去两头，掰成段",
+        "油温七成热，放入四季豆炸至表皮起皱",
+        "捞出沥油",
+        "锅中留底油，放入肉末炒散",
+        "加入干辣椒、花椒、姜蒜末炒香",
+        "倒入四季豆翻炒",
+        "调入生抽、料酒、盐、糖",
+        "翻炒均匀出锅"
+      ],
+      "tips": ["四季豆要炸透，否则有毒", "干煸后口感更香"]
+    },
+    {
+      "id": 33,
+      "name": "韭菜炒蛋",
+      "name_en": "Stir-fried Chives with Egg",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "10分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "韭菜", "amount": "300克", "category": "蔬菜"},
+        {"name": "鸡蛋", "amount": "3个", "category": "蛋奶"},
+        {"name": "盐", "amount": "1茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "韭菜": ["韭黄", "蒜苗", "葱"],
+        "鸡蛋": ["鸭蛋"]
+      },
+      "nutrition": {
+        "calories": 165,
+        "protein": 10,
+        "fat": 12,
+        "carbs": 6,
+        "fiber": 2
+      },
+      "tags": ["素食", "快手菜", "应季"],
+      "steps": [
+        "韭菜洗净切段",
+        "鸡蛋打散，加少许盐",
+        "热锅倒油，倒入蛋液炒至凝固",
+        "用铲子切成小块盛出",
+        "锅中再倒少许油，放入韭菜翻炒",
+        "韭菜变软后加入鸡蛋",
+        "调入盐，翻炒均匀出锅"
+      ],
+      "tips": ["韭菜炒的时间不要太长", "春天韭菜最鲜嫩"]
+    },
+    {
+      "id": 34,
+      "name": "腐竹烧肉",
+      "name_en": "Braised Pork with Tofu Skin",
+      "category": "家常菜",
+      "difficulty": "中等",
+      "time": "45分钟",
+      "servings": 4,
+      "ingredients": [
+        {"name": "五花肉", "amount": "400克", "category": "肉类"},
+        {"name": "腐竹", "amount": "100克", "category": "豆制品"},
+        {"name": "姜", "amount": "1块", "category": "蔬菜"},
+        {"name": "葱", "amount": "1根", "category": "蔬菜"},
+        {"name": "八角", "amount": "2个", "category": "调料"},
+        {"name": "生抽", "amount": "2汤匙", "category": "调料"},
+        {"name": "老抽", "amount": "1茶匙", "category": "调料"},
+        {"name": "料酒", "amount": "1汤匙", "category": "调料"},
+        {"name": "冰糖", "amount": "15克", "category": "调料"},
+        {"name": "盐", "amount": "适量", "category": "调料"}
+      ],
+      "substitutions": {
+        "腐竹": ["豆腐泡", "油豆腐", "千张"],
+        "五花肉": ["梅花肉", "后腿肉"],
+        "八角": ["五香粉", "桂皮"]
+      },
+      "nutrition": {
+        "calories": 385,
+        "protein": 22,
+        "fat": 28,
+        "carbs": 12,
+        "fiber": 1
+      },
+      "tags": ["家常", "下饭", "豆制品"],
+      "steps": [
+        "腐竹温水泡软切段",
+        "五花肉切块焯水",
+        "热锅倒油，放入冰糖炒糖色",
+        "放入肉块翻炒上色",
+        "加入姜片、葱段、八角",
+        "加入料酒、生抽、老抽",
+        "加入开水没过肉块，大火烧开转小火煮30分钟",
+        "放入腐竹继续煮10分钟",
+        "大火收汁，调入盐出锅"
+      ],
+      "tips": ["腐竹不要泡太久", "肉要先炖软再放腐竹"]
+    },
+    {
+      "id": 35,
+      "name": "酱爆鸡丁",
+      "name_en": "Diced Chicken in Bean Sauce",
+      "category": "家常菜",
+      "difficulty": "中等",
+      "time": "20分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "鸡胸肉", "amount": "300克", "category": "肉类"},
+        {"name": "黄瓜", "amount": "1根", "category": "蔬菜"},
+        {"name": "胡萝卜", "amount": "1根", "category": "蔬菜"},
+        {"name": "花生米", "amount": "30克", "category": "坚果"},
+        {"name": "甜面酱", "amount": "2汤匙", "category": "调料"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "料酒", "amount": "1汤匙", "category": "调料"},
+        {"name": "淀粉", "amount": "1汤匙", "category": "调料"},
+        {"name": "白糖", "amount": "1茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "适量", "category": "调料"}
+      ],
+      "substitutions": {
+        "鸡胸肉": ["鸡腿肉", "猪肉"],
+        "黄瓜": ["西葫芦", "冬瓜"],
+        "甜面酱": ["黄豆酱", "豆瓣酱"]
+      },
+      "nutrition": {
+        "calories": 265,
+        "protein": 26,
+        "fat": 14,
+        "carbs": 8,
+        "fiber": 2
+      },
+      "tags": ["家常", "酱香味", "下饭"],
+      "steps": [
+        "鸡胸肉切丁，加生抽、料酒、淀粉腌制",
+        "黄瓜、胡萝卜切丁",
+        "花生米炸酥备用",
+        "热锅倒油，放入鸡丁滑散变色盛出",
+        "锅中留底油，放入甜面酱炒香",
+        "加入鸡丁翻炒均匀",
+        "放入黄瓜、胡萝卜丁",
+        "调入白糖，快速翻炒",
+        "最后加入花生米拌匀出锅"
+      ],
+      "tips": ["酱比较咸，不需要加盐", "蔬菜最后放保持脆嫩"]
+    },
+    {
+      "id": 36,
+      "name": "芹菜炒香干",
+      "name_en": "Stir-fried Celery with Dried Tofu",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "15分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "芹菜", "amount": "300克", "category": "蔬菜"},
+        {"name": "香干", "amount": "3块", "category": "豆制品"},
+        {"name": "蒜", "amount": "2瓣", "category": "蔬菜"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "芹菜": ["西芹", "香芹", "莴笋"],
+        "香干": ["豆干", "千张", "腐竹"]
+      },
+      "nutrition": {
+        "calories": 125,
+        "protein": 8,
+        "fat": 7,
+        "carbs": 8,
+        "fiber": 3
+      },
+      "tags": ["素食", "低卡", "快手菜"],
+      "steps": [
+        "芹菜洗净切段",
+        "香干切片",
+        "蒜切末",
+        "热锅倒油，爆香蒜末",
+        "放入香干翻炒",
+        "加入芹菜大火快炒",
+        "调入生抽和盐",
+        "翻炒均匀出锅"
+      ],
+      "tips": ["大火快炒保持芹菜脆嫩", "香干本身有咸味，盐要少放"]
+    },
+    {
+      "id": 37,
+      "name": "手撕包菜",
+      "name_en": "Hand-torn Cabbage",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "10分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "包菜", "amount": "半颗", "category": "蔬菜"},
+        {"name": "干辣椒", "amount": "5个", "category": "调料"},
+        {"name": "蒜", "amount": "3瓣", "category": "蔬菜"},
+        {"name": "花椒", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "醋", "amount": "1茶匙", "category": "调料"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "包菜": ["大白菜", "紫甘蓝"],
+        "干辣椒": ["辣椒酱", "泡椒"],
+        "花椒": ["花椒油", "胡椒粉"]
+      },
+      "nutrition": {
+        "calories": 95,
+        "protein": 3,
+        "fat": 6,
+        "carbs": 8,
+        "fiber": 2
+      },
+      "tags": ["素食", "快手菜", "辣", "低卡"],
+      "steps": [
+        "包菜洗净撕成块（不要切）",
+        "蒜切片",
+        "热锅倒油，放入花椒和干辣椒爆香",
+        "加入蒜片炒香",
+        "放入包菜大火快炒",
+        "调入生抽、醋、盐",
+        "快速翻炒1-2分钟出锅"
+      ],
+      "tips": ["手撕比切的好吃", "大火快炒保持脆嫩"]
+    },
+    {
+      "id": 38,
+      "name": "洋葱炒蛋",
+      "name_en": "Stir-fried Onion with Egg",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "10分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "洋葱", "amount": "1个", "category": "蔬菜"},
+        {"name": "鸡蛋", "amount": "3个", "category": "蛋奶"},
+        {"name": "生抽", "amount": "1茶匙", "category": "调料"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "洋葱": ["大葱", "韭菜", "蒜苗"],
+        "鸡蛋": ["鸭蛋"]
+      },
+      "nutrition": {
+        "calories": 175,
+        "protein": 10,
+        "fat": 13,
+        "carbs": 8,
+        "fiber": 1
+      },
+      "tags": ["素食", "快手菜", "营养"],
+      "steps": [
+        "洋葱切丝",
+        "鸡蛋打散，加少许盐",
+        "热锅倒油，倒入蛋液炒至凝固盛出",
+        "锅中再倒油，放入洋葱翻炒",
+        "洋葱变软透明后加入鸡蛋",
+        "调入生抽和盐，翻炒均匀出锅"
+      ],
+      "tips": ["洋葱炒软甜味更浓", "紫洋葱比白洋葱甜"]
+    },
+    {
+      "id": 39,
+      "name": "拍黄瓜",
+      "name_en": "Smashed Cucumber Salad",
+      "category": "凉菜",
+      "difficulty": "简单",
+      "time": "10分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "黄瓜", "amount": "2根", "category": "蔬菜"},
+        {"name": "蒜", "amount": "4瓣", "category": "蔬菜"},
+        {"name": "生抽", "amount": "2汤匙", "category": "调料"},
+        {"name": "醋", "amount": "1汤匙", "category": "调料"},
+        {"name": "香油", "amount": "1茶匙", "category": "调料"},
+        {"name": "辣椒油", "amount": "1茶匙", "category": "调料"},
+        {"name": "白糖", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "盐", "amount": "1茶匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "黄瓜": ["苦瓜", "西葫芦"],
+        "辣椒油": ["花椒油", "老干妈"],
+        "醋": ["白醋", "果醋"]
+      },
+      "nutrition": {
+        "calories": 50,
+        "protein": 1,
+        "fat": 3,
+        "carbs": 5,
+        "fiber": 1
+      },
+      "tags": ["素食", "低卡", "凉菜", "快手菜"],
+      "steps": [
+        "黄瓜洗净，用刀拍裂",
+        "切成段",
+        "加入盐腌制10分钟，倒出水分",
+        "蒜切末",
+        "加入蒜末、生抽、醋、香油、辣椒油、糖",
+        "拌匀腌制5分钟",
+        "装盘即可"
+      ],
+      "tips": ["拍裂比切段更入味", "腌制后倒掉水更脆爽"]
+    },
+    {
+      "id": 40,
+      "name": "肉末蒸蛋",
+      "name_en": "Steamed Egg with Minced Pork",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "20分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "鸡蛋", "amount": "3个", "category": "蛋奶"},
+        {"name": "猪肉末", "amount": "100克", "category": "肉类"},
+        {"name": "葱", "amount": "1根", "category": "蔬菜"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "料酒", "amount": "1茶匙", "category": "调料"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "香油", "amount": "1茶匙", "category": "调料"},
+        {"name": "温水", "amount": "250ml", "category": "其他"}
+      ],
+      "substitutions": {
+        "猪肉末": ["牛肉末", "鸡肉末", "虾肉"],
+        "鸡蛋": ["鸭蛋"]
+      },
+      "nutrition": {
+        "calories": 165,
+        "protein": 14,
+        "fat": 11,
+        "carbs": 3,
+        "fiber": 0
+      },
+      "tags": ["营养", "老少皆宜", "快手菜"],
+      "steps": [
+        "鸡蛋打散，加入盐和温水搅匀",
+        "过筛去除气泡",
+        "盖上保鲜膜，扎小孔",
+        "水开后蒸10分钟",
+        "热锅倒油，放入肉末炒散",
+        "加入料酒、生抽",
+        "将肉末铺在蒸好的蛋上",
+        "淋香油，撒葱花"
+      ],
+      "tips": ["蛋液和温水比例1:1.5", "过筛后更细腻"]
+    },
+    {
+      "id": 41,
+      "name": "糖醋藕片",
+      "name_en": "Sweet and Sour Lotus Root",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "15分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "莲藕", "amount": "2节", "category": "蔬菜"},
+        {"name": "葱", "amount": "1根", "category": "蔬菜"},
+        {"name": "白糖", "amount": "2汤匙", "category": "调料"},
+        {"name": "醋", "amount": "1汤匙", "category": "调料"},
+        {"name": "生抽", "amount": "1茶匙", "category": "调料"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "水淀粉", "amount": "适量", "category": "调料"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "莲藕": ["山药", "土豆", "莴笋"],
+        "醋": ["白醋", "果醋"]
+      },
+      "nutrition": {
+        "calories": 145,
+        "protein": 2,
+        "fat": 5,
+        "carbs": 26,
+        "fiber": 4
+      },
+      "tags": ["素食", "酸甜", "开胃"],
+      "steps": [
+        "莲藕去皮切片，放入清水中浸泡",
+        "葱切段",
+        "热锅倒油，放入藕片翻炒",
+        "加入糖、醋、生抽、盐",
+        "加少许水焖煮2分钟",
+        "淋入水淀粉勾芡",
+        "撒上葱段，翻炒均匀出锅"
+      ],
+      "tips": ["切薄片更入味", "泡水防氧化变黑"]
+    },
+    {
+      "id": 42,
+      "name": "青菜豆腐汤",
+      "name_en": "Green Vegetable and Tofu Soup",
+      "category": "汤品",
+      "difficulty": "简单",
+      "time": "15分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "嫩豆腐", "amount": "1盒", "category": "豆制品"},
+        {"name": "小白菜", "amount": "300克", "category": "蔬菜"},
+        {"name": "虾皮", "amount": "1汤匙", "category": "水产"},
+        {"name": "姜", "amount": "2片", "category": "蔬菜"},
+        {"name": "盐", "amount": "1茶匙", "category": "调料"},
+        {"name": "香油", "amount": "1茶匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "小白菜": ["菠菜", "油菜", "生菜"],
+        "嫩豆腐": ["内酯豆腐", "北豆腐"],
+        "虾皮": ["干贝", "海米"]
+      },
+      "nutrition": {
+        "calories": 75,
+        "protein": 6,
+        "fat": 4,
+        "carbs": 4,
+        "fiber": 1
+      },
+      "tags": ["素食", "低卡", "快手菜", "汤品"],
+      "steps": [
+        "豆腐切块",
+        "小白菜洗净",
+        "烧开水，放入姜片和虾皮",
+        "放入豆腐煮3分钟",
+        "放入小白菜",
+        "调入盐",
+        "淋香油出锅"
+      ],
+      "tips": ["豆腐可以先焯水去豆腥味", "青菜不要煮太久"]
+    },
+    {
+      "id": 43,
+      "name": "干锅花菜",
+      "name_en": "Griddle Cauliflower",
+      "category": "川菜",
+      "difficulty": "中等",
+      "time": "20分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "花菜", "amount": "500克", "category": "蔬菜"},
+        {"name": "五花肉", "amount": "150克", "category": "肉类"},
+        {"name": "干辣椒", "amount": "8个", "category": "调料"},
+        {"name": "蒜", "amount": "5瓣", "category": "蔬菜"},
+        {"name": "姜", "amount": "1小块", "category": "蔬菜"},
+        {"name": "蒜苗", "amount": "2根", "category": "蔬菜"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "蚝油", "amount": "1汤匙", "category": "调料"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "适量", "category": "调料"}
+      ],
+      "substitutions": {
+        "花菜": ["西兰花", "卷心菜"],
+        "五花肉": ["腊肉", "腊肠"],
+        "干辣椒": ["辣椒酱", "泡椒"]
+      },
+      "nutrition": {
+        "calories": 185,
+        "protein": 8,
+        "fat": 14,
+        "carbs": 8,
+        "fiber": 3
+      },
+      "tags": ["川菜", "辣", "干锅"],
+      "steps": [
+        "花菜掰小朵洗净",
+        "五花肉切片",
+        "蒜、姜切末，蒜苗切段",
+        "花菜用少许油干煸至微黄盛出",
+        "锅中不放油，放入五花肉煸出油",
+        "加入干辣椒、姜蒜末炒香",
+        "放入花菜翻炒",
+        "调入生抽、蚝油、盐",
+        "加入蒜苗段翻炒均匀",
+        "装入干锅或砂锅"
+      ],
+      "tips": ["花菜不要焯水，直接煸更香", "五花肉煸出油更香不腻"]
+    },
+    {
+      "id": 44,
+      "name": "白灼虾",
+      "name_en": "Boiled Shrimp",
+      "category": "海鲜",
+      "difficulty": "简单",
+      "time": "10分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "鲜虾", "amount": "500克", "category": "水产"},
+        {"name": "姜", "amount": "1块", "category": "蔬菜"},
+        {"name": "葱", "amount": "2根", "category": "蔬菜"},
+        {"name": "料酒", "amount": "2汤匙", "category": "调料"},
+        {"name": "盐", "amount": "1茶匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "鲜虾": ["基围虾", "明虾", "河虾"]
+      },
+      "nutrition": {
+        "calories": 95,
+        "protein": 20,
+        "fat": 1,
+        "carbs": 0,
+        "fiber": 0
+      },
+      "tags": ["海鲜", "高蛋白", "清淡", "低卡"],
+      "steps": [
+        "虾洗净，剪去虾须虾脚",
+        "烧开水，放入姜片、葱段、料酒、盐",
+        "放入虾",
+        "煮至虾变红弯曲，约2-3分钟",
+        "捞出放入冰水中浸泡",
+        "沥干水分装盘",
+        "可以配蘸料：生抽+姜末+香油"
+      ],
+      "tips": ["水开后放虾", "冰水浸泡虾肉更Q弹"]
+    },
+    {
+      "id": 45,
+      "name": "蒜蓉娃娃菜",
+      "name_en": "Garlic Baby Cabbage",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "15分钟",
+      "servings": 3,
+      "ingredients": [
+        {"name": "娃娃菜", "amount": "2颗", "category": "蔬菜"},
+        {"name": "蒜", "amount": "6瓣", "category": "蔬菜"},
+        {"name": "生抽", "amount": "1汤匙", "category": "调料"},
+        {"name": "蚝油", "amount": "1汤匙", "category": "调料"},
+        {"name": "白糖", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "娃娃菜": ["大白菜", "小白菜", "奶白菜"],
+        "蚝油": ["生抽+糖", "蒸鱼豉油"]
+      },
+      "nutrition": {
+        "calories": 85,
+        "protein": 3,
+        "fat": 5,
+        "carbs": 8,
+        "fiber": 2
+      },
+      "tags": ["素食", "低卡", "快手菜"],
+      "steps": [
+        "娃娃菜洗净对半切开",
+        "蒜切末",
+        "烧开水，放入娃娃菜焯烫1分钟",
+        "捞出沥干摆盘",
+        "热锅倒油，放入一半蒜末炒香",
+        "加入生抽、蚝油、糖、少许水煮沸",
+        "淋入水淀粉勾芡",
+        "加入剩余蒜末",
+        "将酱汁浇在娃娃菜上"
+      ],
+      "tips": ["焯水保持翠绿", "蒜分两次放蒜香更浓"]
+    },
+    {
+      "id": 46,
+      "name": "韭菜盒子",
+      "name_en": "Chinese Chive Pockets",
+      "category": "主食",
+      "difficulty": "中等",
+      "time": "45分钟",
+      "servings": 4,
+      "ingredients": [
+        {"name": "面粉", "amount": "300克", "category": "主食"},
+        {"name": "韭菜", "amount": "300克", "category": "蔬菜"},
+        {"name": "鸡蛋", "amount": "3个", "category": "蛋奶"},
+        {"name": "虾皮", "amount": "2汤匙", "category": "水产"},
+        {"name": "香油", "amount": "2汤匙", "category": "调料"},
+        {"name": "盐", "amount": "1茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "适量", "category": "调料"}
+      ],
+      "substitutions": {
+        "韭菜": ["茴香", "白菜", "西葫芦"],
+        "虾皮": ["虾仁", "肉末"],
+        "面粉": ["饺子粉", "全麦粉"]
+      },
+      "nutrition": {
+        "calories": 285,
+        "protein": 10,
+        "fat": 12,
+        "carbs": 35,
+        "fiber": 3
+      },
+      "tags": ["素食", "主食", "早餐", "应季"],
+      "steps": [
+        "面粉加温水和成面团，醒30分钟",
+        "韭菜洗净切碎",
+        "鸡蛋炒碎晾凉",
+        "韭菜加香油拌匀防出水",
+        "加入鸡蛋、虾皮、盐拌匀",
+        "面团分成小剂子，擀成皮",
+        "包入馅料，捏紧边",
+        "平底锅倒油，放入盒子",
+        "中小火煎至两面金黄"
+      ],
+      "tips": ["韭菜先拌油防出水", "面皮不要太厚"]
+    },
+    {
+      "id": 47,
+      "name": "炸酱面",
+      "name_en": "Zha Jiang Mian",
+      "category": "主食",
+      "difficulty": "中等",
+      "time": "30分钟",
+      "servings": 4,
+      "ingredients": [
+        {"name": "面条", "amount": "400克", "category": "主食"},
+        {"name": "猪肉末", "amount": "200克", "category": "肉类"},
+        {"name": "黄瓜", "amount": "1根", "category": "蔬菜"},
+        {"name": "黄豆酱", "amount": "3汤匙", "category": "调料"},
+        {"name": "甜面酱", "amount": "2汤匙", "category": "调料"},
+        {"name": "葱", "amount": "1根", "category": "蔬菜"},
+        {"name": "姜", "amount": "1小块", "category": "蔬菜"},
+        {"name": "白糖", "amount": "1茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "猪肉末": ["牛肉末", "素肉末"],
+        "黄豆酱": ["豆瓣酱", "甜面酱"],
+        "面条": ["挂面", "手擀面"]
+      },
+      "nutrition": {
+        "calories": 425,
+        "protein": 16,
+        "fat": 18,
+        "carbs": 52,
+        "fiber": 3
+      },
+      "tags": ["主食", "面食", "北京菜", "经典"],
+      "steps": [
+        "黄瓜切丝",
+        "葱切葱花，姜切末",
+        "热锅倒油，放入肉末炒散",
+        "加入姜末炒香",
+        "放入黄豆酱、甜面酱小火炒",
+        "加少许水和糖，炒10分钟至浓稠",
+        "烧水煮面条",
+        "面条捞出，浇上炸酱",
+        "放上黄瓜丝，撒葱花"
+      ],
+      "tips": ["酱要小火慢炒防糊", "可以配多种菜码"]
+    },
+    {
+      "id": 48,
+      "name": "西葫芦炒蛋",
+      "name_en": "Stir-fried Zucchini with Egg",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "10分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "西葫芦", "amount": "1根", "category": "蔬菜"},
+        {"name": "鸡蛋", "amount": "2个", "category": "蛋奶"},
+        {"name": "葱", "amount": "1根", "category": "蔬菜"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "食用油", "amount": "2汤匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "西葫芦": ["黄瓜", "丝瓜", "冬瓜"],
+        "鸡蛋": ["鸭蛋"]
+      },
+      "nutrition": {
+        "calories": 145,
+        "protein": 8,
+        "fat": 11,
+        "carbs": 5,
+        "fiber": 1
+      },
+      "tags": ["素食", "快手菜", "低卡"],
+      "steps": [
+        "西葫芦切片",
+        "鸡蛋打散",
+        "葱切葱花",
+        "热锅倒油，倒入蛋液炒散盛出",
+        "锅中再倒油，放入西葫芦翻炒",
+        "西葫芦变软后加入鸡蛋",
+        "调入盐，撒上葱花翻炒均匀出锅"
+      ],
+      "tips": ["西葫芦易熟，不要炒太久", "可以加少许蚝油提鲜"]
+    },
+    {
+      "id": 49,
+      "name": "萝卜排骨汤",
+      "name_en": "White Radish and Pork Rib Soup",
+      "category": "汤品",
+      "difficulty": "简单",
+      "time": "75分钟",
+      "servings": 4,
+      "ingredients": [
+        {"name": "排骨", "amount": "400克", "category": "肉类"},
+        {"name": "白萝卜", "amount": "1根", "category": "蔬菜"},
+        {"name": "姜", "amount": "1块", "category": "蔬菜"},
+        {"name": "葱", "amount": "1根", "category": "蔬菜"},
+        {"name": "料酒", "amount": "1汤匙", "category": "调料"},
+        {"name": "盐", "amount": "1茶匙", "category": "调料"},
+        {"name": "白胡椒粉", "amount": "少许", "category": "调料"}
+      ],
+      "substitutions": {
+        "白萝卜": ["红萝卜", "青萝卜", "玉米"],
+        "排骨": ["筒骨", "瘦肉"]
+      },
+      "nutrition": {
+        "calories": 175,
+        "protein": 13,
+        "fat": 11,
+        "carbs": 6,
+        "fiber": 2
+      },
+      "tags": ["汤品", "清淡", "养生"],
+      "steps": [
+        "排骨洗净焯水",
+        "白萝卜去皮切块",
+        "排骨放入锅中，加足量水",
+        "放入姜片、葱段、料酒",
+        "大火烧开后转小火煮40分钟",
+        "放入白萝卜煮20分钟",
+        "调入盐和白胡椒粉",
+        "撒葱花出锅"
+      ],
+      "tips": ["萝卜后放保持形状", "可以加几粒花椒去腥"]
+    },
+    {
+      "id": 50,
+      "name": "蒜蓉蒸茄子",
+      "name_en": "Steamed Eggplant with Garlic",
+      "category": "家常菜",
+      "difficulty": "简单",
+      "time": "20分钟",
+      "servings": 2,
+      "ingredients": [
+        {"name": "长茄子", "amount": "2根", "category": "蔬菜"},
+        {"name": "蒜", "amount": "6瓣", "category": "蔬菜"},
+        {"name": "生抽", "amount": "2汤匙", "category": "调料"},
+        {"name": "醋", "amount": "1汤匙", "category": "调料"},
+        {"name": "香油", "amount": "1茶匙", "category": "调料"},
+        {"name": "辣椒油", "amount": "1茶匙", "category": "调料"},
+        {"name": "盐", "amount": "1/2茶匙", "category": "调料"},
+        {"name": "白糖", "amount": "1/2茶匙", "category": "调料"}
+      ],
+      "substitutions": {
+        "长茄子": ["圆茄", "紫茄"],
+        "辣椒油": ["花椒油", "老干妈"],
+        "醋": ["白醋", "陈醋"]
+      },
+      "nutrition": {
+        "calories": 85,
+        "protein": 3,
+        "fat": 4,
+        "carbs": 12,
+        "fiber": 4
+      },
+      "tags": ["素食", "低卡", "快手菜", "蒸菜"],
+      "steps": [
+        "茄子洗净切段",
+        "放入蒸锅蒸15分钟至软",
+        "蒜切末",
+        "取出茄子晾凉撕成条",
+        "将蒜末、生抽、醋、香油、辣椒油、盐、糖调匀",
+        "淋在茄子上拌匀即可"
+      ],
+      "tips": ["蒸熟后晾凉再拌更入味", "茄子选嫩的口感更好"]
+    }
+  ]
+}

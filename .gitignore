@@ -1,0 +1,50 @@
+venv/
+.env
+__pycache__/
+*.pyc
+# Python后端忽略规则
+backend/venv/
+backend/.env
+backend/.venv
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/instance/
+backend/*.log
+backend/*.sqlite
+backend/.coverage
+
+# Node.js前端忽略规则
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.next/
+frontend/out/
+frontend/dist/
+frontend/build/
+frontend/.cache/
+frontend/.parcel-cache/
+
+# 通用忽略规则
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+.vscode/
+.idea/
+*.sublime-*
+.env.*
+!.env.example
+
+# 数据库文件
+*.db
+*.sqlite3
