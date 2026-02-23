@@ -72,8 +72,12 @@ export const ChatInterface: React.FC<ChatInterfaceProps> = ({
               {quickQuestions.map((q, i) => (
                 <button
                   key={i}
-                  onClick={() => onSendMessage(q)}
-                  className="text-sm px-3 py-1.5 bg-orange-50 text-orange-600 rounded-full hover:bg-orange-100 transition-colors"
+                  type="button"
+                  onClick={() => {
+                    console.log('Quick question clicked:', q);
+                    onSendMessage(q);
+                  }}
+                  className="text-sm px-3 py-1.5 bg-orange-50 text-orange-600 rounded-full hover:bg-orange-100 transition-colors cursor-pointer z-10 relative"
                 >
                   {q}
                 </button>

@@ -22,7 +22,7 @@ class RecipeVectorStore:
         """
         self.persist_directory = persist_directory
         
-        # 初始化 ChromaDB 客户端
+        # 初始化 ChromaDB 客户端  本地持久化模式 数据保存在 ./chroma_db
         self.client = chromadb.PersistentClient(
             path=persist_directory,
             settings=Settings(

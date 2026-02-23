@@ -1,15 +1,12 @@
 """
 LangChain 版本的 NLP 服务
-使用 Chain 和 Memory 提供更智能的对话体验
+使用 LCEL (LangChain Expression Language) 提供更智能的对话体验
 """
 import os
-from typing import List, Dict, Any
-from langchain.chains import LLMChain, ConversationChain
-from langchain.memory import ConversationBufferMemory, ConversationBufferWindowMemory
-from langchain.prompts import PromptTemplate, ChatPromptTemplate, MessagesPlaceholder
-from langchain_core.messages import HumanMessage, AIMessage
-from langchain_community.llms import DeepSeek
+from typing import List, Dict, Any, Optional
+from langchain_core.prompts import PromptTemplate, ChatPromptTemplate
 from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
+from langchain_openai import ChatOpenAI
 import json
 
 from app.services.vector_store import vector_store
@@ -23,10 +20,7 @@ class LangChainNLPService:
         self.api_key = os.getenv("DEEPSEEK_API_KEY", "sk-5c3ef01a3b5b475bafe94d5051c6ef0b")
         self.api_base = "https://api.deepseek.com/v1"
         
-        # 初始化 LLM
         self.llm = self._init_llm()
-        
-        # 初始化各种 Chain
         self.intent_chain = self._create_intent_chain()
         self.response_chain = self._create_response_chain()
         
@@ -34,13 +28,10 @@ class LangChainNLPService:
     
     def _init_llm(self):
         """初始化 LLM"""
-        # 使用 OpenAI 兼容的方式调用 DeepSeek
-        from langchain_openai import ChatOpenAI
-        
         return ChatOpenAI(
             model="deepseek-chat",
             openai_api_key=self.api_key,
-            openai_api_base=self.api_base,
+            base_url=self.api_base,
             temperature=0.7,
             max_tokens=1000
         )
@@ -99,14 +90,10 @@ class LangChainNLPService:
         return response_prompt | self.llm | StrOutputParser()
     
     async def parse_user_intent(self, message: str) -> Dict[str, Any]:
-        """
-        解析用户意图 - 使用 LangChain Chain
-        """
+        """解析用户意图 - 使用 LangChain LCEL"""
         try:
-            # 使用 Chain 解析意图
             result = await self.intent_chain.ainvoke({"input": message})
             
-            # 确保所有必需字段存在
             defaults = {
                 "intent": "general",
                 "ingredients": [],
@@ -120,7 +107,6 @@ class LangChainNLPService:
             
         except Exception as e:
             print(f"Error in intent parsing: {e}")
-            # 降级到备用解析
             return self._fallback_parse(message)
     
     def _fallback_parse(self, message: str) -> Dict[str, Any]:
@@ -134,7 +120,6 @@ class LangChainNLPService:
             "question_type": "general"
         }
         
-        # 简单的关键词匹配
         common_ingredients = [
             "番茄", "鸡蛋", "土豆", "猪肉", "鸡肉", "牛肉", "鱼", "虾",
             "豆腐", "茄子", "青椒", "洋葱", "大蒜", "姜", "葱",
@@ -146,7 +131,6 @@ class LangChainNLPService:
             if ingredient in message:
                 result["ingredients"].append(ingredient)
         
-        # 检测饮食限制
         if any(word in message for word in ["素食", "不吃肉", "素"]):
             result["restrictions"].append("素食")
         if "海鲜" in message and "过敏" in message:
@@ -163,23 +147,11 @@ class LangChainNLPService:
     async def search_recipes_with_rag(
         self, 
         query: str, 
-        ingredients: List[str] = None,
-        restrictions: List[str] = None,
+        ingredients: Optional[List[str]] = None,
+        restrictions: Optional[List[str]] = None,
         top_k: int = 5
     ) -> List[Dict[str, Any]]:
-        """
-        使用 RAG 搜索菜谱
-        
-        Args:
-            query: 自然语言查询
-            ingredients: 食材列表（可选）
-            restrictions: 饮食限制（可选）
-            top_k: 返回数量
-            
-        Returns:
-            匹配的菜谱列表
-        """
-        # 构建语义查询
+        """使用 RAG 搜索菜谱"""
         if ingredients:
             search_query = f"包含{ '、'.join(ingredients)}的菜"
             if restrictions:
@@ -189,34 +161,38 @@ class LangChainNLPService:
         
         print(f"RAG Search Query: {search_query}")
         
-        # 使用向量搜索
         vector_results = vector_store.search(search_query, n_results=top_k * 2)
         
-        # 获取完整菜谱信息
         enriched_results = []
         for vr in vector_results:
-            # 从原始数据中获取完整信息
             full_recipe = recipe_service.get_recipe_by_id(vr['id'])
             if full_recipe:
-                # 检查饮食限制
                 if restrictions and self._check_restrictions(full_recipe, restrictions):
                     continue
                 
-                # 计算食材匹配
                 matched_ingredients = []
+                ingredient_match_score = 0.0
                 if ingredients:
                     recipe_ingredients = [i.name for i in full_recipe.ingredients]
                     matched_ingredients = list(set(ingredients) & set(recipe_ingredients))
+                    # 食材匹配得分 = 匹配食材数 / 菜谱所需食材数
+                    if len(recipe_ingredients) > 0:
+                        ingredient_match_score = len(matched_ingredients) / len(recipe_ingredients)
+                
+                # 综合评分：向量相似度 * 0.3 + 食材匹配得分 * 0.7
+                vector_sim = vr['similarity'] if vr.get('similarity') else 0
+                combined_score = vector_sim * 0.3 + ingredient_match_score * 0.7
                 
                 enriched_results.append({
                     "recipe": full_recipe,
-                    "match_score": vr['similarity'],
+                    "match_score": round(combined_score, 3),
                     "matched_ingredients": matched_ingredients,
                     "missing_ingredients": [],
-                    "vector_similarity": vr['similarity']
+                    "vector_similarity": vector_sim,
+                    "ingredient_match_score": round(ingredient_match_score, 3)
                 })
         
-        # 按匹配分数排序
+        # 按综合评分排序
         enriched_results.sort(key=lambda x: x['match_score'], reverse=True)
         
         return enriched_results[:top_k]
@@ -235,11 +211,9 @@ class LangChainNLPService:
         for restriction in restrictions:
             if restriction in restriction_keywords:
                 categories = restriction_keywords[restriction]
-                # 检查食材分类
                 for ingredient in recipe.ingredients:
                     if ingredient.category in categories:
                         return True
-                # 检查标签
                 for category in categories:
                     if category in recipe.tags:
                         return True
@@ -249,31 +223,29 @@ class LangChainNLPService:
     async def generate_response(
         self, 
         user_message: str, 
-        history: List[Dict] = None,
-        recipes: List[Dict] = None
+        history: Optional[List[Dict]] = None,
+        recipes: Optional[List[Dict]] = None
     ) -> str:
-        """
-        生成对话回复 - 使用 LangChain
-        """
+        """生成对话回复 - 使用 LangChain LCEL"""
         try:
-            # 格式化历史对话
             history_text = ""
             if history:
-                for msg in history[-5:]:  # 最近5轮
+                for msg in history[-5:]:
                     if msg['role'] == 'user':
                         history_text += f"用户: {msg['content']}\n"
                     else:
                         history_text += f"助手: {msg['content']}\n"
             
-            # 添加菜谱信息
             input_text = user_message
             if recipes:
                 input_text += "\n\n相关菜谱信息：\n"
                 for i, r in enumerate(recipes[:3], 1):
                     recipe = r['recipe']
-                    input_text += f"{i}. {recipe.name}：{', '.join(recipe.tags)}，难度{recipe.difficulty}\n"
+                    recipe_name = recipe.name if hasattr(recipe, 'name') else recipe.get('name', '未知菜谱')
+                    recipe_tags = recipe.tags if hasattr(recipe, 'tags') else recipe.get('tags', [])
+                    recipe_difficulty = recipe.difficulty if hasattr(recipe, 'difficulty') else recipe.get('difficulty', '未知')
+                    input_text += f"{i}. {recipe_name}：{', '.join(recipe_tags)}，难度{recipe_difficulty}\n"
             
-            # 使用 Chain 生成回复
             response = await self.response_chain.ainvoke({
                 "history": history_text,
                 "input": input_text
@@ -301,5 +273,4 @@ class LangChainNLPService:
             return f"建议尝试用相似的食材替代{ingredient}。"
 
 
-# 单例模式
 langchain_nlp_service = LangChainNLPService()
